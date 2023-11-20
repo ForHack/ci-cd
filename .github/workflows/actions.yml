@@ -1,0 +1,7 @@
+name: Github Actions Demo
+on: [push]
+jobs:
+  Explore-CI-CD:
+    runs-on: windows-latest
+    steps:
+      - run: echo CI/CD
