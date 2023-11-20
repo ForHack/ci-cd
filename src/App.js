@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import {useState} from "react";
 
+console.log('w')
+
 function App() {
   const [state, setState] = useState(0)
 
